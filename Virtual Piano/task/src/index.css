@@ -1,0 +1,41 @@
+body {
+    background: #007342;
+    font-family: 'Roboto', sans-serif;
+}
+.white-keys kbd {
+    display: inline-block;
+    height: 200px;
+    line-height: 350px;
+    width: 50px;
+    background: white;
+    margin-left: -4px;
+    border: 2px grey solid;
+    text-align: center;
+}
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    height: 130px;
+    line-height: 200px;
+    width: 35px;
+    color: white;
+    text-align: center;
+}
+.first {
+    position: relative;
+    top: -207px;
+    left: 16px;
+    margin-left: 15px;
+}
+
+.second {
+    position: relative;
+    top: -207px;
+    left: 72px;
+    margin-left: 15px;
+}
+.container {
+    padding: 15%;
+    width: 35%;
+    margin: auto;
+}
